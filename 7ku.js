@@ -15,7 +15,7 @@
     The two arrays are not empty and are the same length. Return the score for this array of answers,
     giving +4 for each correct answer, -1 for each incorrect answer, and +0 for each blank answer, represented 
     as an empty string (in C the space character is used).
-    
+
     If the score < 0, return 0.
     
   My Solution:
@@ -32,4 +32,15 @@
       }
       return score < 0 ? 0 : score;
     }
+*/
+
+/* 3. JavaScript array filter
+  Description: 
+    JavaScript Arrays support a filter function (starting in JavaScript 1.6). Use the filter functionality to complete the function given.
+    The solution would work like the following:
+
+      getEvenNumbers([2,4,5,6]) // should == [2,4,6]
+
+  My Solution: 
+    const getEvenNumbers = numbersArray => numbersArray.filter(number => number % 2 === 0);
 */
