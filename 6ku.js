@@ -81,7 +81,7 @@
 
   My Solution:
     function encrypt(text, n) {
-      if (text === "" || n < 0) return text;
+      if (!text || n < 0) return text;
   
       let newText = text;
   
@@ -103,7 +103,7 @@
     }
 
     function decrypt(encryptedText, n) {
-      if (encryptedText === "" || n < 0) return encryptedText;
+      if (!encryptedText || n < 0) return encryptedText;
   
       let newText = encryptedText;
   
