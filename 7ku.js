@@ -126,3 +126,21 @@
         b + c > a
     }
 */
+
+/* 8. Simple Fun #176: Reverse letter
+  Description:
+    Given a string str, reverse it and omit all non-alphabetic characters.
+
+  Examples:
+    For str = "krishan", the output should be "nahsirk".
+    For str = "ultr53o?n", the output should be "nortlu".
+
+  My Solution:
+    function reverseLetter(str) {
+      return str
+        .replace(/[^a-zA-Z]/g, '') 
+        .split('')                 
+        .reverse()                 
+        .join('');     
+    }
+*/
